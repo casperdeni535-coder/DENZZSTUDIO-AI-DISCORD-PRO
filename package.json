@@ -1,0 +1,17 @@
+{
+  "name": "denzzstudio-ai-discord-pro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DENZZSTUDIO AI all-in-one Discord bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/ai.js && node --check src/store.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0"
+  }
+}
